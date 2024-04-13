@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'Cloning repo'
                 sh 'sudo rm -r -f my-mle-template'
-                sh 'git clone https://github.com/Better-than-Elon/my-mle-template.git'
+                sh 'git clone https://github.com/Better-than-Elon/mle-templete_1_pipelines.git my-mle-template'
                 sh 'cd my-mle-template'
             }
         }

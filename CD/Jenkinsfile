@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh 'sudo rm -r -f *'
                 sh 'ls'
-                sh 'curl https://raw.githubusercontent.com/Better-than-Elon/my-mle-template/main/CD/docker-compose.yml -o docker-compose.yml'
+                sh 'curl https://raw.githubusercontent.com/Better-than-Elon/mle-templete_1_pipelines/main/CD/docker-compose.yml -o docker-compose.yml'
                 sh 'ls'
                 sh 'sudo docker compose up'
             }
